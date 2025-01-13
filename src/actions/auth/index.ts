@@ -17,6 +17,7 @@ export const onCompleteUserRegistration = async (
         fullname,
         clerkId,
         type,
+        email: '', // Add the email property here
         subscription: {
           create: {},
         },
